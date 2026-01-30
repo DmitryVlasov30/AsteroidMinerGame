@@ -40,13 +40,13 @@ class MainMenu(arcade.View):
     def setup(self):
         self.asteroids = arcade.SpriteList()
         path_meteors = [
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorGrey_tiny1.png",
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorGrey_med1.png",
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorBrown_small1.png",
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorGrey_big1.png",
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorGrey_med1.png",
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorGrey_small1.png",
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorGrey_tiny2.png",
+            r"..\sprites\PNG\Meteors\meteorGrey_tiny1.png",
+            r"..\sprites\PNG\Meteors\meteorGrey_med1.png",
+            r"..\sprites\PNG\Meteors\meteorBrown_small1.png",
+            r"..\sprites\PNG\Meteors\meteorGrey_big1.png",
+            r"..\sprites\PNG\Meteors\meteorGrey_med1.png",
+            r"..\sprites\PNG\Meteors\meteorGrey_small1.png",
+            r"..\sprites\PNG\Meteors\meteorGrey_tiny2.png",
         ]
         interval_x = [el for el in range(0, self.window.width, 12)]
         interval_y = [el for el in range(0, self.window.height, 12)]

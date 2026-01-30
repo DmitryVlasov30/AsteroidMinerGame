@@ -118,7 +118,7 @@ class Laser(arcade.Sprite):
     def __init__(self, start_x, start_y, sprite_angle, speed=settings.speed_lasers):
         super().__init__()
         self.texture = arcade.load_texture(
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Lasers\laserBlue01.png"
+            r"..\sprites\PNG\Lasers\laserBlue01.png"
         )
 
         self.center_x = start_x
@@ -166,7 +166,7 @@ class Enemy(arcade.Sprite):
 class Number(arcade.Sprite):
     def __init__(self, x: int, y: int, number: int, scale):
         super().__init__(self, scale)
-        path = rf"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\UI\numeral{number}.png"
+        path = rf"..\sprites\PNG\UI\numeral{number}.png"
         self.texture = arcade.load_texture(path)
         self.center_x = x
         self.center_y = y

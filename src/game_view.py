@@ -60,12 +60,12 @@ class GameView(arcade.View):
         self.create_number()
 
         path_meteors = [
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorGrey_med1.png",
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorBrown_small1.png",
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorGrey_big1.png",
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorGrey_med1.png",
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorGrey_small1.png",
-            r"C:\Users\diwex\PycharmProjects\ArcadeGame\sprites\PNG\Meteors\meteorBrown_big3.png"
+            r"..\sprites\PNG\Meteors\meteorGrey_med1.png",
+            r"..\sprites\PNG\Meteors\meteorBrown_small1.png",
+            r"..\sprites\PNG\Meteors\meteorGrey_big1.png",
+            r"..\sprites\PNG\Meteors\meteorGrey_med1.png",
+            r"..\sprites\PNG\Meteors\meteorGrey_small1.png",
+            r"..\sprites\PNG\Meteors\meteorBrown_big3.png"
         ]
 
         for _ in range(self.count_enemy):
